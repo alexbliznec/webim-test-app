@@ -1,0 +1,10 @@
+extends layout 
+block content
+    h1 Hello 
+        span(id="user-name") #{userName}
+    h1 You are authorized!
+    div(id="friends")
+        h2 Your friends:
+        ul
+            each friend in friends
+                li= friend.first_name

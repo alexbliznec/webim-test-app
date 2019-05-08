@@ -1,0 +1,6 @@
+extends layout
+block content    
+    h1 Please Log In
+    form(action="/auth/vkontakte" method="GET")
+        button(type="submit" id="login-btn")
+            img(src="vkBtn.png" id="vk-image")

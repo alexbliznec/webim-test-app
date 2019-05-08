@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#login-btn {
+    width: 300px
+}
+#vk-image {
+    width: 100%
+}
+form {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+#friends {
+    margin: 0 auto;
+    clear: both;
+    display: table;
+    border: 3px solid #4a76a8;
+    border-radius: 5px;
+    padding: 0 50px 0 50px;
+    
+}
+h2 {
+    float: left;
+    margin-top: 40px;
+    position: relative;
+    top: 47px;
+    
+}
+ul {
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+ul li {
+    margin: 10px;
+}
+ul li:hover {
+    color: #4a76a8;
+    font-weight: bold;
+}
+#user-name {
+    color: #4a76a8;
+}
