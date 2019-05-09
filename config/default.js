@@ -10,7 +10,7 @@ module.exports = {
         home: path.join(process.cwd(), 'templates/home.pug'),
         authorized: path.join(process.cwd(), 'templates/authorized.pug')
     },
-    mongoDB: 'mongodb://admin:admin1@ds151596.mlab.com:51596/webim_test',
+    mongoDB: process.env.MONGODB_URI || 'mongodb://admin:admin1@ds151596.mlab.com:51596/webim_test',
     vk: {
         clientID: '6973584',
         clientSecret: 'LvcDbFGpGZDSnZzjlCms',
