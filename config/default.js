@@ -4,7 +4,7 @@ module.exports = {
     server: {
         port: process.env.PORT || 8888,
         host: process.env.HOST || 'localhost',
-        domain: process.env.DOMAIN || 'http://localhost:8888'
+        domain: process.env.DOMAIN || 'localhost:8888'
     },
     templates: {
         home: path.join(process.cwd(), 'templates/home.pug'),
