@@ -21,8 +21,7 @@ router.get('/loginVK', controller.loginVK);
 
 router.get('/auth/vkontakte', passport.authenticate('vkontakte'));
 
-router.get('/auth/vkontakte/callback', passport.authenticate('vkontakte', { failureRedirect: '/login', successRedirect: '/' }));
+router.get(`/auth/vkontakte/callback`, passport.authenticate('vkontakte', { failureRedirect: '/login', successRedirect: '/' }));
 
-console.log(process.env.port);
 
 module.exports = app;

@@ -6,7 +6,7 @@ const User = require('../../../models/User');
 module.exports = new VKontakteStrategy({
     clientID:     config.get('vk.clientID'), // VK.com docs call it 'API ID', 'app_id', 'api_id', 'client_id' or 'apiId'
     clientSecret: config.get('vk.clientSecret'),
-    callbackURL:  `http://${config.get('server.domain')}/auth/vkontakte/callback`,
+    callbackURL:  `${config.get('server.domain')}/auth/vkontakte/callback`,
     scope: ['email, friends']
   },
   async function(accessToken, refreshToken, params, profile, done) {

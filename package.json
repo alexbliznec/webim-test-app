@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,13 +19,13 @@
     "koa-session-mongoose": "^2.0.5",
     "koa-static": "^5.0.0",
     "mongoose": "^5.5.5",
-    "mongoose-beautiful-unique-validation": "^7.1.1",
     "passport-vkontakte": "^0.3.2",
     "pug": "^2.0.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
+    "mongoose-beautiful-unique-validation": "^7.1.1",
     "webpack-cli": "^3.3.2"
   },
   "engines": {
