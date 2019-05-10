@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongoose-beautiful-unique-validation": "^7.1.1",
     "config": "^3.1.0",
     "cross-env": "^5.2.0",
     "koa": "^2.7.0",
@@ -25,7 +26,6 @@
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
-    "mongoose-beautiful-unique-validation": "^7.1.1",
     "webpack-cli": "^3.3.2"
   },
   "engines": {
